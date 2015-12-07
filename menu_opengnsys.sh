@@ -1,5 +1,5 @@
 #! /bin/bash
-# script : menu_opengnsys.sh
+# script : menu_opengnsys.sh ¡¡¡¡¡¡¡¡¡¡ESTA EN PRUEBA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # Proposito : Generará un menú donde automaticemos las tareas de op
 #	      engnsys como el reinicio del servicio DHCP, MYSQL,
 #	      además de lanzar los editores del DHCP y de configure OS#############################################################################################################################################             Utilizaremos como herramienta principal Dialog.
