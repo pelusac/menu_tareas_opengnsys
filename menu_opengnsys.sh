@@ -2,8 +2,9 @@
 # script : menu_opengnsys.sh
 # Proposito : Generará un menú donde automaticemos las tareas de op
 #	      engnsys como el reinicio del servicio DHCP, MYSQL,
-#	      además de lanzar los editores del DHCP y de configure OS#############################################################################################################################################             Utilizaremos como herramienta principal Dialog.
-######################################################################
+#	      además de lanzar los editores del DHCP y de configure OS
+#############################################################################################################################################  Utilizaremos como herramienta principal Dialog.########################
+###########################################################################################################
 #	limpiamos el terminal.
 
 clear
@@ -40,11 +41,11 @@ sudo gedit /home/alaspaev/Desktop/menuitem
 #	configuramos el menú con dialog.
 
 dialog --backtitle "DTE laboratorios EUPS" --menu "MENU AUTOMATIZACION TAREAS OPENGNSYS" 15 50 5\
- 1 "Reiniciar servicio DHCP"\
+ 1  "Reiniciar servicio DHCP"\
  2  "Reiniciar servicio MYSQL"\
  3  "Reiniciar servicio TFT"\
  4  "Lanzar fichero DHCP"\
- 5 "Lanzar fichero configureOS" 2>menuitem
+ 5  "Lanzar fichero configureOS" 2>menuitem
 
 #	menuitem guarda el fichero de salida menuitem. Dialog usa la s#	      alida de error típica 2 para exportar el valor del menú selecc#	    ionado.
 
